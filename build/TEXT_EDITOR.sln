@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{89965981-F6E2-3AC4-BFA9-7137D7664E56}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0BA2AD4D-D09E-38C2-BC8E-3EA1F583CAB9} = {0BA2AD4D-D09E-38C2-BC8E-3EA1F583CAB9}
+		{B6BAD065-524A-346C-981E-3EF1B1460839} = {B6BAD065-524A-346C-981E-3EF1B1460839}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TEXT_EDITOR", "TEXT_EDITOR.vcxproj", "{0BA2AD4D-D09E-38C2-BC8E-3EA1F583CAB9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B6BAD065-524A-346C-981E-3EF1B1460839} = {B6BAD065-524A-346C-981E-3EF1B1460839}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{B6BAD065-524A-346C-981E-3EF1B1460839}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89965981-F6E2-3AC4-BFA9-7137D7664E56}.Release|x64.ActiveCfg = Release|x64
+		{89965981-F6E2-3AC4-BFA9-7137D7664E56}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{0BA2AD4D-D09E-38C2-BC8E-3EA1F583CAB9}.Release|x64.ActiveCfg = Release|x64
+		{0BA2AD4D-D09E-38C2-BC8E-3EA1F583CAB9}.Release|x64.Build.0 = Release|x64
+		{0BA2AD4D-D09E-38C2-BC8E-3EA1F583CAB9}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{0BA2AD4D-D09E-38C2-BC8E-3EA1F583CAB9}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{B6BAD065-524A-346C-981E-3EF1B1460839}.Release|x64.ActiveCfg = Release|x64
+		{B6BAD065-524A-346C-981E-3EF1B1460839}.Release|x64.Build.0 = Release|x64
+		{B6BAD065-524A-346C-981E-3EF1B1460839}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{B6BAD065-524A-346C-981E-3EF1B1460839}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36B6B9D7-2EB9-3B9E-89D6-F83B23162AAC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
