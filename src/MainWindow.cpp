@@ -2,11 +2,8 @@
 
 MainWindow::MainWindow()
 {
+	centralWidget = new QTextEdit();
+
 	setWindowTitle("Text Editor");
-
-	helloWorld = new QLabel("Hello World!");
-
-	layout = new QVBoxLayout();
-	layout->addWidget(helloWorld);
-	setLayout(layout);
+	setCentralWidget(centralWidget);
 }

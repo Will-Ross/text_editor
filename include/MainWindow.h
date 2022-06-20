@@ -1,6 +1,8 @@
+#pragma once
+
+
 #include <QMainWindow>
-#include <QLabel>
-#include <QVBoxLayout>
+#include <QTextEdit>
 
 class MainWindow : public QMainWindow
 {
@@ -8,6 +10,5 @@ public:
 	MainWindow();
 
 private:
-	QLabel* helloWorld;
-	QVBoxLayout* layout;
+	QTextEdit* centralWidget;
 };
