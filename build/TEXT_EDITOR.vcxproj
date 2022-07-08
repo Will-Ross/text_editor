@@ -214,7 +214,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\dev\text-editor\build\TEXT_EDITOR_autogen\mocs_compilation_Release.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClInclude Include="C:\dev\text-editor\include\DockWidget.h" />
+    <ClInclude Include="C:\dev\text-editor\include\GraphicsObjects\StateGraphicObject.h" />
+    <ClInclude Include="C:\dev\text-editor\include\GraphicsScene.h" />
     <ClInclude Include="C:\dev\text-editor\include\MainWindow.h" />
+    <ClCompile Include="C:\dev\text-editor\src\DockWidget.cpp" />
+    <ClCompile Include="C:\dev\text-editor\src\GraphicsObjects\StateGraphicObject.cpp" />
+    <ClCompile Include="C:\dev\text-editor\src\GraphicsScene.cpp" />
     <ClCompile Include="C:\dev\text-editor\src\MainWindow.cpp" />
     <ClCompile Include="C:\dev\text-editor\src\main.cpp" />
     <ClCompile Include="C:\dev\text-editor\build\TEXT_EDITOR_autogen\mocs_compilation_RelWithDebInfo.cpp">

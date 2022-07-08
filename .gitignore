@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+build/*
+build/CMakeFiles/TEXT_EDITOR_autogen.dir/AutogenInfo.json
+build/CMakeFiles/TEXT_EDITOR_autogen.dir/ParseCache_Release.txt
+build/TEXT_EDITOR.vcxproj
+build/TEXT_EDITOR.vcxproj.filters

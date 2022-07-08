@@ -211,6 +211,24 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/dev/text-editor/include/DockWidget.h",
+			"MU",
+			"6YEA5652QU/moc_DockWidget.cpp",
+			null
+		],
+		[
+			"C:/dev/text-editor/include/GraphicsObjects/StateGraphicObject.h",
+			"MU",
+			"6YHMBQ7QWB/moc_StateGraphicObject.cpp",
+			null
+		],
+		[
+			"C:/dev/text-editor/include/GraphicsScene.h",
+			"MU",
+			"6YEA5652QU/moc_GraphicsScene.cpp",
+			null
+		],
+		[
 			"C:/dev/text-editor/include/MainWindow.h",
 			"MU",
 			"6YEA5652QU/moc_MainWindow.cpp",
@@ -298,6 +316,13 @@
 	"SETTINGS_FILE_Release" : "C:/dev/text-editor/build/CMakeFiles/TEXT_EDITOR_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
+		[ "C:/dev/text-editor/src/DockWidget.cpp", "MU", null ],
+		[
+			"C:/dev/text-editor/src/GraphicsObjects/StateGraphicObject.cpp",
+			"MU",
+			null
+		],
+		[ "C:/dev/text-editor/src/GraphicsScene.cpp", "MU", null ],
 		[ "C:/dev/text-editor/src/MainWindow.cpp", "MU", null ],
 		[ "C:/dev/text-editor/src/main.cpp", "MU", null ]
 	],
