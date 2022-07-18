@@ -1,5 +1,5 @@
 #include <GraphicsScene.h>
-#include <QGraphicsView>
+#include <GraphicsObjects/StateGraphicObject.h>
 #include <MainWindow.h>
 
 GraphicsScene::GraphicsScene(QObject* parent) : QGraphicsScene(parent)
@@ -16,10 +16,21 @@ void GraphicsScene::mousePressEvent(QGraphicsSceneMouseEvent* event)
 	switch (main->getAppMode())
 	{
 	case AppMode::ADD_STATE:
-		addEllipse(pos.x(), pos.y(), 10, 10);
+	{
+		auto* state = new StateGraphicObject;
+		state->setPos(pos);
+		addItem(state);
 		break;
-	case AppMode::DEFAULT: break;
-	default: break;
+	}
+	case AppMode::DEFAULT:
+	{
+		QGraphicsScene::mousePressEvent(event);
+		break;
+	}
+	default:
+	{
+		break;
+	}
 	}
 
 }

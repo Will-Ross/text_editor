@@ -7,6 +7,9 @@
     <ClCompile Include="C:\dev\text-editor\src\DockWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\dev\text-editor\src\GraphicsObjects\StateGraphicObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\dev\text-editor\src\GraphicsScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -19,12 +22,12 @@
     <ClCompile Include="C:\dev\text-editor\build\TEXT_EDITOR_autogen\mocs_compilation_RelWithDebInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\dev\text-editor\src\GraphicsObjects\StateGraphicObject.cpp">
-      <Filter>Source Files\GraphicObjects</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\dev\text-editor\include\DockWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\text-editor\include\GraphicsObjects\StateGraphicObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\dev\text-editor\include\GraphicsScene.h">
@@ -32,9 +35,6 @@
     </ClInclude>
     <ClInclude Include="C:\dev\text-editor\include\MainWindow.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\dev\text-editor\include\GraphicsObjects\StateGraphicObject.h">
-      <Filter>Header Files\GraphicObjects</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -46,12 +46,6 @@
     </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{060B0406-4AD1-3140-824B-1788F0FB7513}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\GraphicObjects">
-      <UniqueIdentifier>{8de17095-9bce-4b34-97f0-cd051230d4b3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\GraphicObjects">
-      <UniqueIdentifier>{718f8fed-a6d2-4515-bd38-8eba988616f3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
